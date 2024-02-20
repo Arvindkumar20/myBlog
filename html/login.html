@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloggers land here</title>
+    <link rel="stylesheet" href="../css/utill.css">
+    <title>Bloggers land here</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+</head>
+<body>
+    <nav class="small-nav max-width1 m-auto">
+        <span><a href="#">gBlog</a></span>
+        <ul><li><a href="#login" class="loginOption">log in</a></li>
+          <li><a href="#create-account" >sign in</a></li>
+          </ul>
+          <form action="search.html"  class="nav-right">
+            <input type="search" placeholder="search here " name="query" class="search-input">
+            <button class="btn">
+        <img src="../images/icon.jpeg" alt="magnifire">
+      </button>
+      </form>
+      <img src="../images/bar.jpeg" alt="click" id="bar">
+    </nav>
+      <nav class="navigation max-width1 m-auto">
+        <div class="nav-left">
+          <span><a href="#">gBlog </a></span>
+          <ul><li id="loginOption"><a href="#login" class="loginOption">log in</a></li>
+            <li id="signUpOption"><a href="#create-account" >sign in</a></li></ul>
+        </div>
+        <div>
+          <form action="search.html"  class="nav-right">
+          <input type="search" placeholder="search here " name="query" class="search-input">
+          <button class="btn">
+      <img src="../images/icon.jpeg" alt="magnifire">
+    </button>
+    </form>
+        </div>
+      </nav>
+      <hr>
+      <div class="max-width2 m-auto">
+      <div class="create-account m-auto" id="create-account">
+        <form>
+                <div class="form-box">
+                    <input type="text" placeholder="Enter Your Name" id="ragisterName">
+                </div>
+                <div class="form-box">
+                    <input type="text" placeholder="Email or Phone" id="ragisterEmail" required>
+                </div>
+                <div class="form-box">
+                    <input type="text" placeholder="Password " id="ragisterPassword" required>
+                </div>
+                <div class="form-box">
+                    <button class="form-box-btn" id="createAccountButton">submit</button>
+                  </div>
+        </form>
+      </div>
+      </div>
+      <div class="max-width2 m-auto">
+      <div class="login m-auto" id="login">
+        <form>
+        <div class="form-box">
+            <input type="text" placeholder="Email or Phone" id="loginEmail" name="email" required>
+        </div>
+        <div class="form-box">
+            <input type="text" placeholder="Password " id="loginPassword" name="password" required>
+        </div>
+        <div class="form-box">
+            <button class="form-box-btn" id="loginButton">login</button>
+          </div>
+        </form>
+        <div class="forget-password m-auto">
+          <div class="revion">
+            <form>
+              <div class="form-box">
+                  <input type="text" placeholder="Email or Phone" id="recheckEmail" required>
+              </div>
+              <div class="form-box">
+                  <input type="text" placeholder="Enter Your Name" id="recheckName"  required>
+              </div>
+              <div class="form-box">
+                  <button class="form-box-btn">submit</button>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div> 
+      </div>
+      <script src="../js/index.js"></script>
+      <script src="../js/login.js"></script>
+</body>
+</html>

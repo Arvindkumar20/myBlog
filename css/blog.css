@@ -1,0 +1,45 @@
+.post-img{
+    display: flex;
+    position: relative;
+}
+.post-img p{  
+    color: rgb(8, 8, 8);
+    font-weight: bolder;
+    font-size: 18px;
+}
+.right-content img{
+        height: 325px;
+        width: 325px;
+        border: 2px solid black;
+        border-radius: 167px;
+}
+.blogs{
+    font-family: var(--font3);
+    line-height: 26px;
+}
+.blogs h2{
+    padding: 18px 0;
+    font-family: var(--font1);
+    font-weight: bold;
+}
+.blogs p::first-letter{
+    font-size: 20px;
+}
+.blogs p{
+    font-weight: 800;
+    padding: 3px 0;
+    word-spacing: 5px;
+}
+.blog-post-meta{
+    background: #e8e5e5;
+    display: flex;
+    flex-direction: column;
+}
+.font2{
+    font-family: var(--font3);
+    margin-top: 0;
+}
+.social-media span img{
+    height: 30px;
+    width: 30px;
+}

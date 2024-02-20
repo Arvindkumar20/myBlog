@@ -1,0 +1,133 @@
+/* Roboto font family */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+/* Baloo 2 font family */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Roboto:ital,wght@1,100&display=swap');
+/* Noto Sans font family */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+:root{
+    --main-bg-color:brown;
+    --font1:'Baloo 2',sans-serif;
+    --font2:'Roboto',sans-serif;
+    --font3:'Noto Sans',sans-serif;
+    --aHoverColor:#0e9090;
+}
+.max-width1{
+    max-width: 80vw;
+}
+.max-width2{
+    max-width: 70vw;
+}
+.m-auto{
+    margin: auto;
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.small-nav{
+    display: none;
+}
+.navigation{
+height: 80px;
+/* background: #a29e9e; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: var(--font1);
+}
+.nav-left{
+display: flex;
+align-items: center;
+}
+.nav-left span{
+    font-weight: bold;
+    font-size: 25px;
+}
+.nav-left ul{
+    display: flex;
+margin: 0  4vw;
+font-size: 14px;
+font-weight: 700;
+align-items: center;
+font-size: 17px;
+
+}
+.nav-left ul li{
+list-style: none;
+margin: 0 12px;
+font-size: var(--font2);
+transition: all 0.5s ease-in-out 0.5s;
+}
+.nav-left ul li a{
+text-decoration: none;
+color: black;
+}
+.nav-left ul li a:hover{
+    border-bottom: 2px solid rgb(32, 34, 32);
+    color: var(--aHoverColor);
+    font-weight: bold;
+    }
+.nav-right{
+display: flex;
+width: 250px;
+align-items: center;
+border: 2px solid black;
+padding: 0 6px;
+background: white;
+border-radius: 4px;
+}
+ .btn{
+border: none;
+outline: none;
+overflow: hidden;
+cursor: pointer; 
+transition: all 0.2s ease;
+}
+/* magnifire image */
+.btn img{
+height: 20px;
+}
+.btn:hover{
+    scale: 1.09;
+}
+.search-input{
+    font-size: 20px;
+    padding: auto;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-family: var(--font1);
+}
+.form-box-btn{
+    padding: 5px 15px;
+    border: 2px solid black;
+    font-family: var(--font3);
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.form-box-btn:hover{
+    padding: 5px 15px;
+    border: 2px solid black;
+    font-family: var(--font3);
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 17.1px;
+    background: #100c0c;
+    color: rgb(252, 251, 250);
+}
+.form-box input, textarea{
+    width: 40vw;
+    padding: 10px 5px;
+    margin: 4px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+}

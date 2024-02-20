@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: #000; */
+}
+.login-and-articals{
+    display: flex;
+}
+.create-account , .login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #1cafe9;
+    margin-top: 20%;
+    padding: 50px 20%;
+    border-radius: 6px;
+}
+.login{
+    display: none;
+}
+.revion{
+    display: none;
+}
+.form-box{
+    width: 400px;
+}
+.form-box input{
+    width: 200px;
+}
+.content{
+    /* height: 350px; */
+    display: flex;
+    margin-top:40px;
+    /* position: relative; */
+}
+.login-here{
+    /* position: absolute; */
+    display: none;
+    background: #6988f9;
+    padding: 30px 20px;
+    border-radius: 7px;
+    height: 200px;
+    width: 280px;
+}
+
+.left-content{
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+    width: 50%;
+    position: relative;
+    font-family: var(--font1);  
+}
+.left-content p{
+  font-family: var(--font3);  
+  word-break: break-all;
+}
+.right-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.right-content img{
+height: 350px;
+width: 350px;
+border: 2px solid black;
+border-radius: 175px;
+}
+.max-width1 hr{
+    margin-top: 20px;
+}
+.home-articals{
+    font-family: var(--font3);
+position: relative;
+}
+.home-articals h2{
+padding: 30px 0;
+
+}
+.home-artical{
+display: flex;
+padding: 20px;
+}
+ a{
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+    }
+.home-artical img{
+    border-radius: 6px;
+width: 250px;
+height:250px;
+}
+.home-artical-content{
+    padding: 0 35px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-weight: 900;
+}
+.footer{
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(12, 11, 11);
+    flex-direction: column;
+}
+.footer a{
+    color: rgb(11, 3, 3);
+}
